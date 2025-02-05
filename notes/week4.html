@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+    <head>
+        <meta charset="utf-8">
+        <title>Week 4 Notes</title>
+    </head>
+
+    <body>
+        <h1>Tables</h1>
+        <table>
+        <caption>Here is the Caption</caption>
+            <tr> <!-- Establishing Table Row-->
+                <th>Country</th> <!-- within the row you have 3 different HEADERS -->
+                <th>Population</th>
+                <th>& of World Population</th>
+            </tr>
+            <tr> <!-- starting the next row -->
+                <td>China</td>
+                <td>1,403,830,640</td>
+                <td>18.0%</td>
+            </tr>
+            <tr> 
+                <td>Canada</td>
+                <td>900</td>
+                <td>50.0%</td>
+            </tr>
+            <tr> 
+                <td>Korea</td>
+                <td>4000</td>
+                <td>33.0%</td>
+            </tr>
+        </table>
+    <hr>
+    <h1>Forms</h1>
+        <form action="" method="post">
+            <label for="fname">First Name:</label> <!--Label for the TEXT type-->
+            <input type="text" id="fname" name="fname">
+        <br>
+            <label for="comments">Comments:</label><br> 
+            <textarea id="comments" name="comments"></textarea> <!--TEXTAREA type-->
+        <br>
+            <p>Please select your age:</p>
+            <input type="radio" id="age" name="age" value="30"> <!--RADIO type-->
+            <label for="age1">0 - 30</label>
+            <input type="radio" id="age" name="age" value="60"> <!--RADIO type-->
+            <label for="age2">31 - 60</label>
+            <input type="radio" id="age" name="age" value="100"> <!--RADIO type-->
+            <label for="age3">61 - 100</label>
+        <br>
+            <p>Please select your veichle:</p>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"> <!--CHECKBOX type-->
+            <label for="vehicle1"> I have a bike</label>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car"> <!--CHECKBOX type-->
+            <label for="vehicle2"> I have a car</label>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat"> <!--CHECKBOX type-->
+            <label for="vehicle3"> I have a boat</label>
+        <br><br>
+            <label for="cars">Please choose a car model:</label> <br>
+            <br><select name="cars" id="cars"> <!--SELECT type-->
+                <option value="bmw">BMW</option>
+                <option value="bmw">Volvo</option>
+                <option value="bmw">Audi</option>
+            </select>
+
+        <br><br>
+            <input type="submit" value="Send Form">
+        </form>
+
+    </body>
+
+</html>
