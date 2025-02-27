@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0"> 
+        <title>More CSS</title>
+        <style>
+            h2 {background-color: #fdffdb ;}
+            /* from now on you will use hexadecmial colors */
+            /*When you click a link, after it will present as a certain color*/
+            a:visited {color: #345736;} 
+            /*When you hover over the indicated section, it will put a background color*/
+            a:hover {background-color: #fdff86;}
+            p:hover {background-color: #7a74f1;}
+            /* pseudo selector, you need the : */
+            body {background-color: #d6fcff;
+                font-family: Georgia, 'Times New Roman', Times, serif; /*Serif's are the lines added to the words, sans = without*/ 
+                background-image: url(https://cdn.freebiesupply.com/logos/large/2x/syracuse-orangemen-logo-png-transparent.png); /*Puts an image as the background of your page*/
+                background-repeat: no-repeat;
+                background-size: 60%;
+            }
+
+
+            .bgimage {background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/88/Syracuse_University_BlockS_PRIMARYBLUE_RGB.svg);
+                background-repeat:repeat-x;
+                background-size: 10%;
+            } /* Creates a class associated with the paragraph below */ 
+
+
+            .box {background-color: #b9dcff;
+                border-width: 2.5px;
+                border-style: solid;
+                border-color: #1c3989;
+                /* SHORT CUT -->  
+                border: 5px solid #ff1493; 
+                */
+                padding: 30px;
+                margin: 30px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <h1>More CSS</h1>
+        <h2>Week 7 Notes</h2>
+            <p>Notes on CSS styling</p>
+        <h2>Links</h2>
+            <a href="https://www.google.com/">Google</a>
+            <br>
+            <a href="https://www.apple.com/">Apple</a>
+        <h2>Notes</h2>
+            <p class="bgimage">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <h2>Box Model</h2>
+        <p class="box">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip e </p>
