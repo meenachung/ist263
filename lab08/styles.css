@@ -1,0 +1,45 @@
+body {background-color: #f1f5f7;color: #000000;}
+h1,h2 {background-color:#011f4b ; color: #f1f5f7;}
+h3 {size: 5em;}
+
+a {color:#12420f;}
+a:visited {color: #f7f7e6;} 
+a:hover {background-color: #327624;}
+p:hover {background-color: #c5e9ff;}
+nav {background-color:#011f4b;}
+nav a {color:#99a9ac}
+nav a:hover {background-color:#9898a5}
+.box {background-color: #294a6b;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #011f4b;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.quote {float: right;}
+.clearfloat {clear: both;}
+.imgport {float:left;
+        margin: 10px 30px 30px 0px;}
+
+.linkedin-icon {float:left}
+
+.box1, .box2 {
+            background-color: #eaeaea; 
+            border-radius: 10px; 
+            padding: 20px; 
+            margin-bottom: 30px; 
+        }
+
+.box1, .box2 {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.addressbox, .emailbox {
+    flex: 1;
+}
+
+.formbox, .mapbox {
+        flex: 1; 
+    }
