@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+    <head>
+        <meta charset="utf-8">
+        <title>Week 9 Notes on Flexbox's</title>
+    
+    <style>
+        p {text-align: center;} /* To center your text on the page */
+        .cbox {
+            border: #94ddff 2px solid;
+            width: 30%;
+            margin: 0 auto 0 auto; /* Top right bottom left (shortcut) */
+            padding: 1em;
+            }
+        .outercontainer {
+            display: flex;
+            border: #07435f 2px solid;
+            padding: 1em;
+            justify-content: flex-end;
+            }
+        .outercontainer div {
+            border: #000000 1px solid;
+            margin: 1em;
+            padding: 1em;
+            }
+    </style>
+    </head>
+
+    <body>
+
+        <p>Content goes here</p>
+        
+        <div class="cbox">
+            <p>Please Center This BOX.</p> <!-- This paragraph tag will center this text within the div-->
+        </div>
+
+        <div class="outercontainer">
+            <div>One</div>
+            <div>Two</div>
+            <div>Three</div>
+            <div>Four</div>
+        </div>
+    
+    </body>
+
+</html>
