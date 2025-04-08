@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Week 12 Notes</title>
+
+        <script>
+            function wrongAnswer () {
+                document.getElementById("wrong").innerHTML = "<span style='color:red;'>True is the wrong answer :(</span>"
+            }
+            function rightAnswer () {
+                document.getElementById("correct").innerHTML = "<span style='color:green;'>False is the right answer :)</span>"
+
+            }
+            function change() {
+                document.getElementById("arrow").setAttribute("src","https://peopel-su.github.io/ist263/images/arrow_over.png")
+            }
+            function changeBack() {
+                document.getElementById("arrow").setAttribute("src","https://peopel-su.github.io/ist263/images/arrow.png")
+            }
+
+            function changeColor() {
+                document.getElementById("thepage").style.backgroundColor = document.getElementById("picker").value;
+                //First (before =), takes the style and changes the background color of the entire page
+                //Note that --> CSS uses background-color (dashes), JavaScript uses backgroundColor (camelcase)
+                //Second (after =), from the picker ID, do the value 
+                //So basically --> If you click the picker, it will show u the different colors and if you pick green, it will then turn the whole page green 
+                //Saying -- change the background color to the color chosen from the picker
+            }
+        </script>
+    </head>
+
+    <body id="thepage">
+        <h1>My JavaScript Quiz</h1>
+        <p><strong>True or False: Java and JavaScript are the same thing.</strong></p>
+        <p onclick="wrongAnswer();" id="wrong">True</p>
+        <p onclick="rightAnswer();" id="correct">False</p>
+
+        <hr>
+
+        <h1>Image Rollovers</h1>
+        <img id="arrow" onmouseover="change();" onmouseout="changeBack();" src="https://peopel-su.github.io/ist263/images/arrow.png" alt="arrow icon"> 
+
+        <hr>
+
+        <h1>Picker</h1>
+        <p>
+            <form>
+                <input onchange="changeColor();" id="picker" type="color">
+            </form>
+        </p>
+    </body>
+
+</html>
