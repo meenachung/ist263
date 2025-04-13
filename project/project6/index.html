@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+    <head>
+        <meta charset="utf-8">
+        <title>Home Page</title>
+        <link rel="stylesheet" href="project.css">
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+        <script>
+            function showNav () {
+                document.getElementById("navlinks").style.display = "block";
+            }
+            function hideNav () {
+                document.getElementById("navlinks").style.display = "none";
+            }
+        </script>
+    </head>
+
+    <body>
+        <div id="smallscreennav">
+        <div id="boxit">
+            <img id="hamicon" onclick="showNav();" src="http://peopel-su.github.io/ist263/images/hamburger.png" alt="hamburger icon">
+        </div>
+        <nav id="navlinks">
+            <p id="close" onclick="hideNav();"><span>X</span></p>
+            <a href="index.html"> Home </a>
+            <a href="portfolio.html"> Projects </a>
+            <a href="about.html"> About </a>
+            <a href="contact.html"> Contact</a>
+        </nav>
+        </div>
+
+    <main>
+
+    <section class="hero">
+        <h1>Meena Chung</h1>
+        <p>Producer | Director | Video Editor</p>
+      </section>
+
+    </main>
+
+    <div>
+        <h2>Hello! I’m a New York-based creative, working at the intersection of media and technology to tell and explore meaningful human stories.</h2>
+    </div>
+ 
+
+    <div class="gallery">
+        <img src="../projectmedia/HKim-CallanFoster-3.jpg" width="389" height="292" alt="CallanFoster">
+        <img src="../projectmedia/IMG_0484.JPG" width="219" height="292" alt="ÉTNShoot">
+        <img src="../projectmedia/IMG_1187.jpeg" width="219" height="292" alt="MayaRizzo">
+        <img src="../projectmedia/IMG_8988.jpeg" width="219" height="292" alt="MckennaF">
+    </div>
+
+    <footer>
+        <h1>Let's Connect</h1>
+        <h3>
+            <a href="mailto:mcchung@syr.edu"> mcchung@syr.edu </a><br>
+            <a href="https://www.linkedin.com/in/meena-chung-a40218292/">LinkedIn</a><br>
+        </h3>
+        &copy; Meena Chung 2025
+    </footer>
+
+    </body>
+
+</html>
