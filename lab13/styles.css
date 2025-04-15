@@ -1,13 +1,13 @@
 body {background-color: #f1f5f7;color: #000000;}
-h1,h2 {background-color:#011f4b ; color: #f1f5f7;}
+h1 {background-color:#011f4b ; color: #f1f5f7;}
 h3 {size: 5em;}
 
 a {color:#12420f;}
-a:visited {color: #f7f7e6;} 
+a:visited {color: #00a6ff;} 
 a:hover {background-color: #327624;}
 p:hover {background-color: #c5e9ff;}
 nav {background-color:#011f4b;}
-nav a {color:#99a9ac}
+nav a {color:#FFFFFF}
 nav a:hover {background-color:#9898a5}
 .box {background-color: #294a6b;
     border-width: 2px;
