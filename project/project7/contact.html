@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="project.css">
+        <script src="project.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="smallscreennav">
+            <div id="boxit">
+                <img id="hamicon" onclick="showNav();" src="http://peopel-su.github.io/ist263/images/hamburger.png" alt="hamburger icon">
+            </div>
+            <nav id="navlinks">
+                <p id="close" onclick="hideNav();"><span>X</span></p>
+                <a href="index.html"> Home </a>
+                <a href="portfolio.html"> Projects </a>
+                <a href="about.html"> About </a>
+                <a href="contact.html"> Contact</a>
+            </nav>
+            </div>
+    
+    <main class="hero2">
+    <h1>Let's Connect</h1>
+    <p>
+        <a href="mailto:mcchung@syr.edu"> Email</a>
+        <a href="https://www.linkedin.com/in/meena-chung-a40218292/">LinkedIn</a>
+        <img src="../projectmedia/LinkedInScaled.png" alt="LinkedIn" class="linkedin-icon" width="40">
+    </p>
+    </main>
+
+    <h2>Message Me</h2>
+    <form action="https://formspree.io/f/myzkpydz" method="post">
+        <label for="name">Name:</label> 
+        <br>
+        <input type="text" id="name" name="name">
+    <br><br>
+        <label for="contact">Contact Information:</label><br> 
+        <textarea id="contact" name="contact"></textarea> 
+    <br><br>
+        <label for="comments">Message:</label><br> 
+        <textarea id="comments" name="comments"></textarea> 
+    <br><br>
+        <input type="submit" value="Send Form">
+    </form>
+
+    <footer>
+        <h1>Let's Connect</h1>
+        <h3>
+            <a href="mailto:mcchung@syr.edu"> mcchung@syr.edu </a><br>
+            <a href="https://www.linkedin.com/in/meena-chung-a40218292/">LinkedIn</a><br>
+        </h3>
+        &copy; Meena Chung 2025
+    </footer>
+
+    </body>
+    </html>
