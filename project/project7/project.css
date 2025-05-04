@@ -463,7 +463,7 @@ form input[type="submit"]:hover {
   opacity: 0.7;
 }
 
-#otn-articles {
+.otn-articles {
   max-width: 900px;
   margin: 3rem auto;
   background-color: #f0f0f0;
@@ -472,14 +472,14 @@ form input[type="submit"]:hover {
   position: relative;
 }
 
-#otn-articles h4 {
+.otn-articles h4 {
   font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 1rem;
   color: #4a4a4a;
 }
 
-#otn-articles p {
+.otn-articles p {
   line-height: 1.6;
   margin-bottom: 1rem;
   font-size: 1rem;
