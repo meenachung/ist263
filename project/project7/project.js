@@ -15,3 +15,4 @@ function scrollGallery(direction) {
         behavior: 'smooth'
     });
 }
+
