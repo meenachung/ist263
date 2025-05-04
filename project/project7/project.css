@@ -275,7 +275,6 @@ article {
   right: 0;
 }
 
-
 /* Portfolio Page */
 
 .intro {
@@ -326,8 +325,7 @@ article {
     flex-wrap: wrap;
     gap: 30px;
     max-width: 1200px;
-    margin: 50px auto;
-    padding: 0 20px;
+    margin: 20px 5px 20px 35px;
 }
 
 .leftside {
@@ -342,11 +340,10 @@ article {
 }
 
 .portrait {
-  width: 100%;
-  max-width: 400px;
+  width: auto;
   height: auto;
   border-radius: 10px;
-  object-fit: cover;
+  display: flex;
 }
 
 /* Contact Page */
@@ -466,10 +463,6 @@ form label {
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
-.Orange {
-  color:#E67728;
-}
-
 /* Post Production Page */ 
 
 .post-articles {
@@ -545,11 +538,18 @@ form label {
 }
 
 .nexis-intro {
+  display: flex;
+  padding: 2em;
+  margin: 4em auto 4em auto;
   float: left;
+  flex-wrap: wrap;
 }
 
-.NEXIS-text {
-  float: right;
+
+.nexis-info {
+  display: flex; 
+  justify-content: center;
+  padding: 2em;
 }
 
 /* DropDown Nav */
