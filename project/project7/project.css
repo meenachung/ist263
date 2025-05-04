@@ -668,6 +668,15 @@ form input[type="submit"]:hover {
   width: 1px;
   height: 1px;
   overflow: hidden;
+  background-color: #0d2250;
+  color:#d3d3d3;
+  padding: 2em;
+  text-decoration: none;
+}
+
+.skip:hover {
+  color: #ffffff;
+  text-decoration:underline;
 }
 
 .skip:focus {
