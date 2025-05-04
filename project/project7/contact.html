@@ -15,6 +15,7 @@
 
     <body>
         <header>
+          <a href="#main" class="skip">Skip to main content</a>
             <div class="nav-bar">
               <div class="logo-container">
                 <a href="index.html">
@@ -56,21 +57,28 @@
     </div>
     </main>
 
-    <h2 id="formheading">Message Me!</h2>
+    <section id="form_main">
+      <div class="form-container">
+        <h2 id="formheading">Message Me!</h2>
+        <div class="form-box">
+          <form action="https://formspree.io/f/myzkpydz" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+    
+            <label for="contact">Contact Information:</label><br>
+            <textarea id="contact" name="contact"></textarea><br>
+    
+            <label for="comments">Message:</label><br>
+            <textarea id="comments" name="comments"></textarea><br>
+    
+            <input type="submit" value="Send Form">
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    
 
-    <form action="https://formspree.io/f/myzkpydz" method="post">
-        <label for="name">Name:</label> 
-        <br>
-        <input type="text" id="name" name="name">
-    <br><br>
-        <label for="contact">Contact Information:</label><br> 
-        <textarea id="contact" name="contact"></textarea> 
-    <br><br>
-        <label for="comments">Message:</label><br> 
-        <textarea id="comments" name="comments"></textarea> 
-    <br><br>
-        <input type="submit" value="Send Form">
-    </form>
 
     <footer>
         <h1>Let's Connect</h1>

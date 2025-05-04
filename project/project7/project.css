@@ -326,6 +326,7 @@ article {
     gap: 30px;
     max-width: 1200px;
     margin: 20px 5px 20px 35px;
+    text-align: center;
 }
 
 .leftside {
@@ -356,21 +357,83 @@ article {
   opacity: 0.7;
 }
 
-form {
-  max-width: 500px;
+#form_main {
+  display: flex;
+  justify-content: center;
   margin: 2rem auto;
-  padding: 2rem;
-  background-color: #d3d3d3;
-  border-radius: 12px;
 }
 
-form label {
-  font-weight: bold;
+.form-container {
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+  max-width: 900px;
+  width: 100%;
 }
 
 #formheading {
-  text-align: center;
+  font-size: 2rem;
+  text-align: left;
+  margin: 0;
 }
+
+.form-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d3d3;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+  padding: 0.8rem 2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+  .form-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+  .form-box {
+    width: 75%;
+    padding: 1rem;
+  }
+  form {
+    width: 100%;
+  }
+}
+
+
 
 /* OTN Page */
 .otn-links a {
@@ -400,7 +463,7 @@ form label {
   opacity: 0.7;
 }
 
-.otn-articles {
+#otn-articles {
   max-width: 900px;
   margin: 3rem auto;
   background-color: #f0f0f0;
@@ -409,14 +472,14 @@ form label {
   position: relative;
 }
 
-.otn-articles h4 {
+#otn-articles h4 {
   font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 1rem;
   color: #4a4a4a;
 }
 
-.otn-articles p {
+#otn-articles p {
   line-height: 1.6;
   margin-bottom: 1rem;
   font-size: 1rem;
@@ -594,4 +657,21 @@ form label {
 
 .dropdown:hover .dropdown-content {
   display: flex;
+}
+
+
+/*Skip to main content */
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip:focus {
+  position: static;
+  width: auto;
+  height: auto;
 }
