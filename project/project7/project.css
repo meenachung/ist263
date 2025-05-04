@@ -555,20 +555,6 @@ form label {
 }
 
 /* DropDown Nav */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Style for the main nav link */
-.dropbtn {
-  padding: 10px;
-  display: inline-block;
-  text-decoration: none;
-  color: inherit;
-}
-
-/* Dropdown content (hidden by default) */
 /* Style the dropdown wrapper to match nav links */
 .dropdown {
   position: relative;
