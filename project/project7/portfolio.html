@@ -10,38 +10,61 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-    </head>
+        <link rel="shortcut icon" type="image/x-icon" href="../projectmedia/favicon.ico">
+      </head>
 
     <body>
-        <div id="smallscreennav">
-            <div id="boxit">
-                <img id="hamicon" onclick="showNav();" src="http://peopel-su.github.io/ist263/images/hamburger.png" alt="hamburger icon">
+        <header>
+            <div class="nav-bar">
+              <div class="logo-container">
+                <a href="index.html">
+                  <img src="../projectmedia/mc (1).png" alt="Meena Chung Logo" class="logo">
+                </a>
+              </div>
+          
+              <div id="smallscreennav">
+                <div id="boxit">
+                  <img id="hamicon" onclick="showNav();" src="../projectmedia/ham-menu.png">
+                </div>
+                <nav id="navlinks">
+                  <p id="close" onclick="hideNav();"><span>X</span></p>
+                  <a href="index.html"> Home </a>
+                  <a href="portfolio.html"> Projects </a>
+                  <a href="about.html"> About </a>
+                  <a href="contact.html"> Contact</a>
+                </nav>
+              </div>
             </div>
-            <nav id="navlinks">
-                <p id="close" onclick="hideNav();"><span>X</span></p>
-                <a href="index.html"> Home </a>
-                <a href="portfolio.html"> Projects </a>
-                <a href="about.html"> About </a>
-                <a href="contact.html"> Contact</a>
-            </nav>
-            </div>
+          </header>
 
     <main class="hero2">
         <h1>Projects</h1>
+        <article class="intro">
+            <p>Explore the projects I've had the opportunity to contribute to, from post-production editing to full-scale production. Each piece reflects my passion for storytelling and collaboration.</p>
+            </article>
     </main>
 
-    <h3>Explore the projects I've had the opportunity to contribute to, from post-production editing to full-scale production. Each piece reflects my passion for storytelling and collaboration.</h3>
+    <article class="projects-container">
+        <div class="project">
+            <h2>Orange Television Network</h2>
+            <a href="otn.html">
+                <img src="../projectmedia/hq720.jpg" alt="OTN Logo">
+            </a>
+        </div>
     
-    <article>
-        <h2>Orange Television Network</h2>
-        <img src="../projectmedia/hq720.jpg" alt="OTN Logo" width="350" height="200">
-        <a href="otn.html">OTN</a>
-    </article>
+        <div class="project">
+            <h2>Post-Production</h2>
+            <a href="postproduction.html">
+                <img src="../projectmedia/cameraicon.svg" alt="camera icon">
+            </a>
+        </div>
 
-    <article>
-        <h2>Post-Production</h2>
-        <img src="../projectmedia/cameraicon.svg" alt="camera icon" width="200" height="200">
-        <a href="postproduction.html">Video Editing</a>
+        <div class="project">
+            <h2>NEXIS</h2>
+            <a href="nexis.html">
+                <img src="../projectmedia/nexis.png" alt="Nexis Logo">
+            </a>
+        </div>
     </article>
 
     <footer>
@@ -50,7 +73,9 @@
             <a href="mailto:mcchung@syr.edu"> mcchung@syr.edu </a><br>
             <a href="https://www.linkedin.com/in/meena-chung-a40218292/">LinkedIn</a><br>
         </h3>
-        &copy; Meena Chung 2025
+        &copy;MeenaChung2025
     </footer>
    
     </body>
+
+</html>

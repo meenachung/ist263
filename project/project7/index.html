@@ -10,51 +10,86 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="../projectmedia/favicon.ico">
     </head>
 
     <body>
-        <div id="smallscreennav">
-        <div id="boxit">
-            <img id="hamicon" onclick="showNav();" src="http://peopel-su.github.io/ist263/images/hamburger.png" alt="hamburger icon">
-        </div>
-        <nav id="navlinks">
-            <p id="close" onclick="hideNav();"><span>X</span></p>
-            <a href="index.html"> Home </a>
-            <a href="portfolio.html"> Projects </a>
-            <a href="about.html"> About </a>
-            <a href="contact.html"> Contact</a>
-        </nav>
-        </div>
+        <header>
+            <div class="nav-bar">
+              <div class="logo-container">
+                <a href="index.html">
+                  <img src="../projectmedia/mc (1).png" alt="Meena Chung Logo" class="logo">
+                </a>
+              </div>
+          
+              <div id="smallscreennav">
+                <div id="boxit">
+                  <img id="hamicon" onclick="showNav();" src="../projectmedia/ham-menu.png" alt="hamburger icon">
+                </div>
+                <nav id="navlinks">
+                  <p id="close" onclick="hideNav();"><span>X</span></p>
+                  <a href="index.html"> Home </a>
+                  <a href="portfolio.html"> Projects </a>
+                  <a href="about.html"> About </a>
+                  <a href="contact.html"> Contact</a>
+                </nav>
+              </div>
+            </div>
+          </header>
+          
 
     <main>
-
-    <section class="hero">
-        <h1>Meena Chung</h1>
-        <p>Producer | Director | Video Editor</p>
-      </section>
-
+        <section class="hero">
+            <h1>Meena Chung</h1>
+            <p>Producer | Director | Video Editor</p>
+        </section>
     </main>
 
     <div>
         <h2>Hello! I’m a New York-based creative, working at the intersection of media and technology to tell and explore meaningful human stories.</h2>
     </div>
  
+    <div class="gallery-wrapper">
+        <button class="scroll-btn left" onclick="scrollGallery(-1)">&#10094;</button>
+      
+        <div class="gallery-scroll-wrapper">
+            <div class="gallery-scroll" id="gallery">
+            <a href="https://otn-syracuseuniversity.lightcast.com/player/52884/696124">
+              <img src="../projectmedia/Kim-L&COA-1.jpg" alt="Orange Appeal" class="gallery-image">
+            </a>
+            <a href="https://otn-syracuseuniversity.lightcast.com/player/52884/713614">
+              <img src="../projectmedia/HKim-AdaSetlick-24.jpg" alt="Ada Setlick" class="gallery-image">
+            </a>
+              <img src="../projectmedia/HKim-Loud&ClearWeek2-7.jpeg" alt="Loud & Clear Directing" class="gallery-image">
+            <a href="https://otn-syracuseuniversity.lightcast.com/player/52884/716538"> 
+              <img src="../projectmedia/HKim-Rhythmic-4.jpg" alt="Julia Bolukh" class="gallery-image">
+            </a>
+            <a href="http://otn-syracuseuniversity.lightcast.com/player/52884/712051">
+              <img src="../projectmedia/HKim-Rhythmic-20.jpg" alt="Molly Bailen" class="gallery-image">
+            </a>
+            <a href="https://otn-syracuseuniversity.lightcast.com/player/52884/715213">
+              <img src="../projectmedia/hkim-rhythmic-17.jpg" alt="Sanctuary dance" class="gallery-image">
+            </a>
+            <a href="https://otn-syracuseuniversity.lightcast.com/player/52884/721045">
+              <img src="../projectmedia/HKim-CallanFoster-3.jpg" alt="Callan Foster" class="gallery-image">
+            </a>
+              <img src="../projectmedia/Kimmer-L&C-12.jpg" alt="L&C 12" class="gallery-image">
+              <img src="../projectmedia/Kimmer-L&C-23.jpeg" alt="L&C 23" class="gallery-image">
+            </div>
+          </div>
+      
+        <button class="scroll-btn right" onclick="scrollGallery(1)">&#10095;</button>
+      </div>
+      
 
-    <div class="gallery">
-        <img src="../projectmedia/HKim-CallanFoster-3.jpg" width="389" height="292" alt="CallanFoster">
-        <img src="../projectmedia/IMG_0484.JPG" width="219" height="292" alt="ÉTNShoot">
-        <img src="../projectmedia/IMG_1187.jpeg" width="219" height="292" alt="MayaRizzo">
-        <img src="../projectmedia/IMG_8988.jpeg" width="219" height="292" alt="MckennaF">
-    </div>
 
     <footer>
         <h1>Let's Connect</h1>
         <h3>
-            <a href="mailto:mcchung@syr.edu"> mcchung@syr.edu </a><br>
+            <a href="mailto:mcchung@syr.edu"> mcchung@syr.edu</a><br>
             <a href="https://www.linkedin.com/in/meena-chung-a40218292/">LinkedIn</a><br>
         </h3>
-        &copy; Meena Chung 2025
+        &copy;MeenaChung2025
     </footer>
 
     </body>
