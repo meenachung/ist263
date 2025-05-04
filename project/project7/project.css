@@ -446,6 +446,10 @@ form input[type="submit"]:hover {
   text-decoration: underline;
 }
 
+.otn-links a:visited {
+  color: #3971b2;
+}
+
 .otn-social-icons {
   position: absolute;
   top: 1rem;
