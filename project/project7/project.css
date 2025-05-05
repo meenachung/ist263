@@ -406,8 +406,8 @@ form textarea {
 
 form input[type="submit"] {
   padding: 0.8rem 2rem;
-  background-color: #328835;
-  color: white;
+  background-color: #26702a;
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -415,7 +415,7 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-  background-color: #247228;
+  background-color: #1b5e20;
 }
 
 @media (max-width: 768px) {
