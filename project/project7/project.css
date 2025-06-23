@@ -546,6 +546,10 @@ form input[type="submit"]:hover {
   flex-wrap: wrap;
 }
 
+.telly {
+  color: #BB973E; 
+}
+
 @media only screen and (max-width: 800px) {
   .otn-social-icons {
     display: none;
@@ -649,6 +653,12 @@ form input[type="submit"]:hover {
   display: flex; 
   justify-content: center;
   padding: 2em;
+}
+
+.figmaboards img {
+  width: 18em;
+  height: auto;
+  border-radius: 3em;
 }
 
 /* DropDown Nav */
